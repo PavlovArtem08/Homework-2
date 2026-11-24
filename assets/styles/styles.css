@@ -97,3 +97,13 @@
     display: inline-block;
     max-width: 33.1%;
 }
+
+@media screen and (max-width: 576px) {
+
+    .footer__section-info,
+    .footer__section-content {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+    }
+}
